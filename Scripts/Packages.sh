@@ -76,11 +76,11 @@ UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"   #分区助手
 UPDATE_PACKAGE "luci-app-netwizard" "sirpdboy/luci-app-netwizard" "main"  #网络设置向导
 UPDATE_PACKAGE "luci-app-advancedplus" "sirpdboy/luci-app-advancedplus" "main"  #高级设置
 UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"   #qbittorrent下载
-UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main" #蜂窝调制解调器
+UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"   #蜂窝调制解调器
 UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"   #异地组网,内网穿透工具
-UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-appfilter oaf"  #应用过滤(OAF)
+UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-appfilter oaf"   #应用过滤(OAF)
 UPDATE_PACKAGE "istore" "sbwml/package_new_istore" "main"   #istore
 
 #更新软件包版本

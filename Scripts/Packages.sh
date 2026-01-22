@@ -82,6 +82,7 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"   #异地组网,内网穿透工具
 UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-appfilter oaf"   #应用过滤(OAF)
 UPDATE_PACKAGE "istore" "sbwml/package_new_istore" "main"   #istore
+UPDATE_PACKAGE "systools" "canmy777/luci-app-systools" "main"   #systools
 
 #更新软件包版本
 UPDATE_VERSION() {

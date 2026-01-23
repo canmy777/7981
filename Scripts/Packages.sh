@@ -70,7 +70,7 @@ UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"   #easytier
 UPDATE_PACKAGE "fancontrol" "DHDAXCW/luci-app-fancontrol" "main"   #风扇控制
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"   #集客AC控制器
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"   #DNS 转发器
-UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "master" "" "homebox speedtest speedtest-cli"   #网络测试
+UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "master" "" "homebox speedtest"   #网速测试
 UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"   #alist的新替换openlist
 UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"   #分区助手
 UPDATE_PACKAGE "luci-app-netwizard" "sirpdboy/luci-app-netwizard" "main"  #网络设置向导
@@ -82,7 +82,6 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"   #异地组网,内网穿透工具
 UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-appfilter oaf"   #应用过滤(OAF)
 UPDATE_PACKAGE "istore" "sbwml/package_new_istore" "main"   #istore
-UPDATE_PACKAGE "systools" "canmy777/luci-app-systools" "main"   #systools
 
 #更新软件包版本
 UPDATE_VERSION() {

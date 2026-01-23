@@ -1,9 +1,9 @@
 #科学插件调整
 CONFIG_PACKAGE_luci-app-homeproxy=y
-#增加插件&组件
+#增加插件
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-gecoosac=y
-#CONFIG_PACKAGE_luci-app-netspeedtest=y
+CONFIG_PACKAGE_luci-app-netspeedtest=y
 CONFIG_PACKAGE_luci-app-partexp=y
 
 CONFIG_PACKAGE_luci-app-samba4=y
@@ -15,14 +15,9 @@ CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-app-store=y
 #CONFIG_PACKAGE_luci-app-quickstart=y
 CONFIG_PACKAGE_luci-app-ddnsto=y
-CONFIG_PACKAGE_luci-app-systools=y
+#CONFIG_PACKAGE_luci-app-systools=y
 #CONFIG_PACKAGE_luci-app-netwizard=y
 #CONFIG_PACKAGE_luci-app-advancedplus=y
-
-CONFIG_PACKAGE_speedtestcli=y
-CONFIG_PACKAGE_luci-lib-taskd=y
-CONFIG_PACKAGE_luci-lib-iform=y
-CONFIG_PACKAGE_lsblk=y
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 CONFIG_PACKAGE_luci-app-wol=n
